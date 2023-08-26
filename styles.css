@@ -1,19 +1,140 @@
-header{
-    background-color: aqua;
-    width: auto;
-    height: 50px;
-    text-align: center;
-    border-radius: 5px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
+body{
+    background-color: rgb(236, 235, 235);
 }
 
+h1{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 100px;
+}
 
-div{
-    height: 300px;
-    width: auto;
-    margin: 2px;
+label, input, option{
+    font-family: 'Cabin', sans-serif;
+}
+
+.message{
+    margin-top: 50px;
+}
+
+.message p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    text-align: center;
+    
+}
+
+.title{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.container1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end; /*eje principal row*/
+    align-items: flex-end; /*eje secundario*/
+}
+
+.container1 img{
+    
+    width: 260px;
+    height: 500px;
+}
+
+.container2{
+    height: 450px;
+    width: 1000px;
+    margin: 100px;
+    display: flex;
+    border-radius: 2px;
+}
+
+.card{
+    width: 550px;
+    height: 450px;
+    margin-right: 10%;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 8px rgba(43, 42, 42, 0.3); /* Añadir sombreado */
+}
+
+.card input{
+    margin-left: 80px;
+    width: 220px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1 px solid black;
+    outline: none; /* Evita que se muestre el contorno al hacer clic */
+}
+
+.acciones{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.acciones select{
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    outline: none;
     border-radius: 5px;
+}
+
+.acciones button{
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(233, 233, 233);
+    color: rgb(37, 37, 37);
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(43, 42, 42, 0.5); /* Añadir sombreado */
+}
+
+.acciones button:hover{
     background-color: rgb(165, 164, 164);
+}
+
+.cleancontainer{
+    width: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.cleancontainer button{
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cleancontainer button:hover{
+    color:rgb(121, 120, 120);
 }
