@@ -1,2 +1,2 @@
-# Practica1-Desarrolloweb
-Formulario web que realiza operaciones aritmeticas de manera dinámica👨‍💻
+# Practica1-Desarrolloweb👨‍💻
+Formulario web que realiza operaciones aritmeticas de manera dinámica
