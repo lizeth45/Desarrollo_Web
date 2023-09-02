@@ -1,2 +1,2 @@
-# Practica1-Desarrolloweb👨‍💻
-Formulario web que realiza operaciones aritmeticas de manera dinámica
+# Desarrollo Web👨‍💻
+Repositorio de practicas realizadas en la materia Desarrollo web y movil de la carrera LIDTS de la UNACH. 
