@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 2</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Prompt:wght@100;200&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
+
 <body>
     <main>
-        <div>
+        <div class="a">
+            <div class="contenedor">
+                <div class="left-container">
+                    <div class="btnss">
+                        <button id="rfc"><ion-icon name="document-text-outline"></ion-icon>RFC</button>
+                        <button id="api"><ion-icon name="server-outline"></ion-icon>API</button>
+                    </div>
+                    <div class="title">
+                        <h1>Práctica 2</h1>
+                    </div>  
+                </div>
+                <div class="right-container">
+                    <div class="form-RFC" id="frfc">
+                        <h1>Generar RFC</h1>
+                        <p>Bienvenido, ingresa los siguientes datos para poder calcular tu RFC.</p>
+                        <label>Nombre(s):</label>
+                        <input type="text" id="nombre" required>
+                        <label>Apellido paterno:</label>
+                        <input type="text" id="appat" required>
+                        <label>Apellido materno:</label>
+                        <input type="text" id="apmat" required>
+                        <label>Fecha de nacimiento:</label>
+                        <div>
+                            <input type="date" id="fechanac" required>
+                            <button class="btn1" id="btnRfc">Generar</button>
+                        </div>
+                        <label>RFC:</label>
+                        <input type="text" id="resultrfc" readonly>
+                        <button id="clean">Limpiar</button>
+                    </div>
+                    <div class="form-API" id="fapi">
+                        <h1>Consulta de API REST</h1>
+                        <p>Búsqueda de datos en una API haciendo uso de AJAX.</p>
+                        <label>Ingresa un ID para buscar en la API:</label>
+                        <div class="c">
+                            <input type="number" id="idUser"  required>
+                            <button id="btnApi">Consultar API REST</button>
+                        </div>
+                        <label>Nombre:</label>
+                        <input type="text" readonly id="nameAPI">
+                        <label>Email:</label>
+                        <input type="text" readonly id="emailAPI">
+                        <button id="clean2">Limpiar</button>
+                    </div> 
+                </div>
+            </div>
 
         </div>
     </main>
-    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
