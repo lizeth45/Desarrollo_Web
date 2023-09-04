@@ -12,44 +12,45 @@
     <title>Práctica 1</title>
 </head>
 <body>
-   
-    <div class="container1">
-        <img src="assets/calculadora.png" alt="calculadora">
-    </div>
-    
-    <div class="container2">
-        <div class="card">
-            <div class="message">
-                <p>DATOS</p>
-            </div>
+    <div class="a">
+        <div class="general">
+            <div class="container2">
+                <div class="card">
+                    <div class="message">
+                        <p>DATOS</p>
+                    </div>
 
-            <input type = "number" autofocus id ="num1" placeholder="Numero 1" />
-            
-            <input type = "number" id ="num2" placeholder="Numero 2" />
-            
-            <div class="acciones">
-                <select name="options" id="options">
-                    <option value="mainopcion">Operación</option>
-                    <option value="opcion1">Sumar</option>
-                    <option value="opcion2">Restar</option>
-                    <option value="opcion3">Dividir</option>
-                    <option value="opcion4">Multiplicar</option>
-                </select>
+                    <input type = "number" autofocus id ="num1" placeholder="Numero 1" />
+                    
+                    <input type = "number" id ="num2" placeholder="Numero 2" />
+                    
+                    <div class="acciones">
+                        <select name="options" id="options">
+                            <option value="mainopcion">Operación</option>
+                            <option value="opcion1">Sumar</option>
+                            <option value="opcion2">Restar</option>
+                            <option value="opcion3">Dividir</option>
+                            <option value="opcion4">Multiplicar</option>
+                        </select>
+                        
+                        <button id="btnEjecutar">Ejecutar</button>
+                    </div>
                 
-                <button id="btnEjecutar">Ejecutar</button>
+                    
+                    <input type="number" id="resultado" placeholder="Resultado" readonly>
+                    <div class="cleancontainer">
+                        <button id="btnLimpiar">Limpiar</button>
+                    </div>
+                </div> 
+                <div class="title">
+                    <h1>Calculadora básica</h1>
+                </div> 
             </div>
-           
-            
-            <input type="number" id="resultado" placeholder="Resultado" readonly>
-            <div class="cleancontainer">
-                <button id="btnLimpiar">Limpiar</button>
+        
+            <div class="container1">
+                <img src="assets/calculadora.png" alt="calculadora">
             </div>
-        </div> 
-        <div class="title">
-            <h1>Calculadora básica</h1>
-        </div> 
-                 
+        </div>
     </div>
-  
 </body>
 </html>
