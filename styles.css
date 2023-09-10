@@ -11,7 +11,7 @@ body {
 }
 
 .a{
-    width: 800px;
+    width: 1060px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 
 .cont1{
     background-color: rgb(255, 255, 255);
-    width: 350px;
+    width: 300px;
     height: 400px;
     border-radius: 20px;
     display: flex;
@@ -41,7 +41,7 @@ body {
 
 .cont2{
     background-color: rgb(251, 251, 251);
-    width: 350px;
+    width: 300px;
     height: 400px;
     border-radius: 20px;
     display: flex;
@@ -52,6 +52,25 @@ body {
 }
 
 .cont2 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.cont3{
+    background-color: rgb(251, 251, 251);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  6px 6px 20px rgba(102, 22, 255, 0.30);
+}
+
+.cont3 img{
     width: 300px;
     height: 150px;
     border-radius: 10px;
